@@ -16,3 +16,9 @@ function ReverseMyText() {
     document.getElementById("reversedText").value = reversed;
 };
 
+function Bold() {
+    var myText = document.getElementById("US3originalText").value;
+    var bolded = myText.style.bold();
+    document.getElementById("boldText").value = bolded;
+};
+
