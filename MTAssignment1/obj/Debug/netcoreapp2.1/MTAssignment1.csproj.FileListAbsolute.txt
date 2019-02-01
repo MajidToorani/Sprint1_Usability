@@ -5,7 +5,6 @@ F:\Majid\SEMESTER4\SoftwareQualityAndUsability\Assignments\assignment1\MTAssignm
 F:\Majid\SEMESTER4\SoftwareQualityAndUsability\Assignments\assignment1\MTAssignment1\MTAssignment1\bin\Debug\netcoreapp2.1\MTAssignment1.pdb
 F:\Majid\SEMESTER4\SoftwareQualityAndUsability\Assignments\assignment1\MTAssignment1\MTAssignment1\bin\Debug\netcoreapp2.1\MTAssignment1.Views.dll
 F:\Majid\SEMESTER4\SoftwareQualityAndUsability\Assignments\assignment1\MTAssignment1\MTAssignment1\bin\Debug\netcoreapp2.1\MTAssignment1.Views.pdb
-F:\Majid\SEMESTER4\SoftwareQualityAndUsability\Assignments\assignment1\MTAssignment1\MTAssignment1\obj\Debug\netcoreapp2.1\MTAssignment1.csprojAssemblyReference.cache
 F:\Majid\SEMESTER4\SoftwareQualityAndUsability\Assignments\assignment1\MTAssignment1\MTAssignment1\obj\Debug\netcoreapp2.1\MTAssignment1.csproj.CoreCompileInputs.cache
 F:\Majid\SEMESTER4\SoftwareQualityAndUsability\Assignments\assignment1\MTAssignment1\MTAssignment1\obj\Debug\netcoreapp2.1\MTAssignment1.RazorAssemblyInfo.cache
 F:\Majid\SEMESTER4\SoftwareQualityAndUsability\Assignments\assignment1\MTAssignment1\MTAssignment1\obj\Debug\netcoreapp2.1\MTAssignment1.RazorAssemblyInfo.cs

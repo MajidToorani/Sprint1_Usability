@@ -7,9 +7,14 @@
 String.prototype.reverse = function () {
     return this.split('').reverse().join('');
 }
-String.prototype.bold = function () {
-    return this.bold();
-}
+//String.prototype.bold = function () {
+//    return this.bold();
+//}
+
+//String.prototype.italics = function () {
+//    return this.italics();
+//} 
+
 function ReverseMyText() {
     var myText = document.getElementById("US5originalText").value;
     var reversed = myText.reverse();
@@ -18,14 +23,15 @@ function ReverseMyText() {
 
 function Bold() {
     var myText = document.getElementById("US3originalText").value;
-    var bolded = myText.style.bold();
-    document.getElementById("boldText").value = bolded;
+    //var bolded = myText.bold();
+    document.getElementById("boldText").innerHTML = myText.bold();
 };
 
-function myFunction() {
-    var str = "Hello World!";
-    var result = str.bold();
-    document.getElementById("boldText").innerHTML = result;
+
+function Italicize() {
+    var myText = document.getElementById("US4originalText").value;
+    var italic = myText.italics();
+    document.getElementById("italicizedText").innerHTML = italic;
 };
 
 function ChangeBackground(color) {

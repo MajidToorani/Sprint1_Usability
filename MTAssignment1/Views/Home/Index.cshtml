@@ -99,41 +99,54 @@
 <body onload="ChangeBackground('lightBlue');">
     <div align="center">
         <div>
-            <h3>Please enter your texts in the textboxes and press the buttons to submit.You will see the results on the next labels.</h3>
-        </div>
+            <h1>Converter App</h1>
+        </div><br /><br />
         <div>
-            <h3>US1:</h3><p>You will see your text in a green background on the next label.</p>
-            <input id="US1originalText" type="text" align="center" />
-            <input id="greenBackground" align="center" disabled /><br><br>
-            <input type="submit" value="Green" onclick="BackColor('lightgreen');" />
-        </div>
+            <h3>Green Background Task</h3>
+            <label>Type your text here:</label>
+            <textarea id="US1originalText" rows="4" cols="50"></textarea>
+            <label>Result:</label>
+            <textarea id="greenBackground" disabled rows="4" cols="50" ></textarea><br><br>
+            <input type="submit" value="Green Render" onclick="BackColor('lightgreen');" />
+        </div><br />
         <div>
-            <h3>US5:</h3><p>You will see your reversed text on the next label.</p>
-            <input id="US5originalText" type="text" />
-            <input id="reversedText" disabled /><br><br>
+            <h3>Reverse Task</h3>
+            <label>Type your text here:</label>
+            <textarea id="US5originalText" rows="4" cols="50"></textarea>
+            <label>Result:</label>
+            <textarea id="reversedText" disabled rows="4" cols="50"></textarea><br><br>
             <input type="submit" value="Reverse" onclick="ReverseMyText();" />
-        </div>
+        </div><br />
         <div>
-            <h3>US3:</h3><p>You will see your text in bold on the next label.</p>
-            <input id="US3originalText" type="text" />
-            <input id="boldText" disabled /><br><br>
-            <input type="submit" value="Bold" onclick="myFunction();" />
-        </div>
+            <h3>Bold Task</h3>
+            <label>Type your text here:</label>
+            <textarea id="US3originalText" rows="4" cols="50"></textarea>
+            <label>Result:</label>
+            <p id="boldText">
+                @*<textarea disabled rows="4" cols="50"></textarea>*@
+            </p><br><br>
+            <input type="submit" value="Bold" onclick="Bold();" />
+        </div><br />
         <div>
-            <h3>US4:</h3><p>You will see Your text in an italicized font on the next label.</p>
-            <input id="US4originalText" type="text" />
-            <input id="italicizedText" disabled /><br><br>
+            <h3>Italicize Task</h3>
+            <label>Type your text here:</label>
+            <textarea id="US4originalText" rows="4" cols="50"></textarea>
+            <label>Result:</label>
+            <textarea id="italicizedText" disabled rows="4" cols="50"></textarea><br><br>
             <input type="submit" value="Italicize" onclick="Italicize();" />
-        </div>
+        </div><br />
         <div>
-            <h3>US6:</h3><p>You will see a dark mode workspace.</p>
+            <h3>Dark Mode Task</h3>
+            <label>Click the button</label><br />
             <input type="submit" value="Dark mode" onclick="ChangeBackground('black');" />
-        </div>
-        <div>
-            <h3>US2:</h3><p>You will see your number is a binary or not on the next label.</p>
+        </div><br />
+        @*<div>
+            <h3>Binary Check Task</h3>
+            <label>Type your number here:</label>
             <input id="US2originalNumber" type="number" />
+            <label>Result:</label>
             <input id="binary" disabled /><br><br>
             <input type="submit" value="Binary check" onclick="BinaryCheck();" />
-        </div>
+        </div>*@
     </div>
 </body>
