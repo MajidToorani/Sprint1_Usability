@@ -22,3 +22,9 @@ function Bold() {
     document.getElementById("boldText").value = bolded;
 };
 
+function myFunction() {
+    var str = "Hello World!";
+    var result = str.bold();
+    document.getElementById("boldText").innerHTML = result;
+}
+
