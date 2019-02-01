@@ -26,5 +26,9 @@ function myFunction() {
     var str = "Hello World!";
     var result = str.bold();
     document.getElementById("boldText").innerHTML = result;
-}
+};
+
+function ChangeBackground(color) {
+    document.body.style.backgroundColor = color;
+};
 
